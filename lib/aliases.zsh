@@ -33,3 +33,12 @@ alias la='ls -lAh'
 
 alias afind='ack-grep -il'
 
+alias ss='screen'
+alias s='screen -x'
+alias sw='screen -wipe'
+
+alias tm='tail -f /var/log/messages'
+alias ts='tail -f /var/log/daemon.log'
+alias ta='tail -f /var/log/all.log'
+alias taa='tail -f /var/log/auth.log'
+
