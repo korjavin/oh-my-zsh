@@ -8,7 +8,6 @@ alias -- -='cd -'
 
 # Super user
 alias _='sudo'
-alias please='sudo'
 
 #alias g='grep -in'
 
@@ -41,4 +40,5 @@ alias tm='tail -f /var/log/messages'
 alias ts='tail -f /var/log/daemon.log'
 alias ta='tail -f /var/log/all.log'
 alias taa='tail -f /var/log/auth.log'
+alias te='tail -f /var/log/exim/mainlog'
 
